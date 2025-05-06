@@ -1,30 +1,28 @@
-# 🧗‍♂️ Climbing Training Plan Generator
+# 🧗 Climbing Training Plan Generator
 
-This project generates a **structured Excel training schedule** for climbing athletes. It helps you organize your weekly sessions with categories, load estimates, and formatting to visualize your training blocks.
+This project generates a structured weekly training plan for climbers. It outputs:
 
-## ✅ Features
+- ✅ A **Google Calendar (.ics)** file of scheduled sessions
+- ✅ A clean **Excel plan** with colored categories (Conditioning, Lead, etc.)
+- ✅ A **stacked bar chart** showing weekly load by training type
 
-- Weekly plan spanning **weeks 19–32**
-- **Session types**: lead climbing, bouldering, finger training, conditioning
-- **Training types**: training, deload, send
-- **Color-coded rows** based on session category
-- **Week header rows** with both the week number and starting date
-- **Excel output** that is clean, formatted, and compatible with Google Sheets
+## 📦 Features
 
-## 📂 Output
+- Plan spans **Weeks 19–32**
+- Supports **Training**, **Deload**, and **Send** weeks
+- Categorizes sessions into:
+  - 🟢 Conditioning
+  - 🟡 Lead
+  - 🔴 Fingers
+  - 🔵 Bouldering
+- Visualizes session distribution with colors and stacked plots
+- Export formats:
+  - `climbing_plan.ics`
+  - `climbing_training_plan_clean.xlsx`
+  - `training_load_chart.png`
 
-- `training_schedule_matrix_layout.xlsx`: an Excel file showing:
-  - Session names by week
-  - Weekly load
-  - Week type (training/deload/send)
-  - Visual grouping by training category
+## 🚀 Getting Started
 
-## 📦 Requirements
-
-- Python 3.8+
-- `pandas`
-- `xlsxwriter`
-
-Install dependencies:
-```bash
-pip install pandas xlsxwriter
+### Install dependencies:
+Tested with Python 3.11
+pip install matplotlib xlsxwriter
