@@ -32,6 +32,9 @@ This project creates a structured, multi-format training plan for climbers. It o
 | `climbing_training_plan_clean.xlsx`   | Formatted weekly Excel plan               |
 | `training_load_chart.png`             | Visual bar chart of weekly load           |
 
+Example Excel output: 
+<img width="1438" alt="Screenshot 2025-05-06 at 8 21 01 PM" src="https://github.com/user-attachments/assets/9bfc2732-9a75-4835-88f1-4e9f7c5812ac" />
+
 ---
 
 ## 📓 Jupyter Notebook
